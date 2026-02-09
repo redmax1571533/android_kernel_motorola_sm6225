@@ -3749,7 +3749,7 @@ static int load_module(struct load_info *info, const char __user *uargs,
 	long err = 0;
 	char *after_dashes;
 	
-	/FIXME
+	//FIXME
 	flags |= MODULE_INIT_IGNORE_MODVERSIONS;
 	flags |= MODULE_INIT_IGNORE_VERMAGIC;
 
